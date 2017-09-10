@@ -25,5 +25,6 @@ function currentLine(katzDeliLine) {
       line += place ". " + katzDeliLine[i] + ", "
       place++
     }
+    return line
   }
 }
